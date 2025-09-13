@@ -83,6 +83,26 @@ li {
   font-size: 2.5rem;
 }
 
+.concept-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concept-items{
+    width: 60%;
+    display: flex;
+    gap: 2rem;
+}
+
+.concept-items p{
+    width: 65%;
+}
+
+.concept-items img{
+    width: 35%;
+}
+
 .section_title {
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
