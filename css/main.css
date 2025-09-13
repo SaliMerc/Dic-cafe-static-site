@@ -73,6 +73,10 @@ li {
   background: center / cover no-repeat url("../images/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
 }
 
 .key h1 {
