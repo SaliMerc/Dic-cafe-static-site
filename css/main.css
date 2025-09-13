@@ -103,6 +103,28 @@ li {
     width: 35%;
 }
 
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desert-options{
+    display: flex;
+    width: 98%;
+}
+
+.desert-items-types{
+    display: flex;
+    width: 49%;
+}
+
+.desert-items-types img{
+    width: 55%;
+    height: 90%;
+}
+
+
 .section_title {
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
@@ -126,4 +148,10 @@ li {
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
+}
+
+.coffee-menu{
+    display: flex;
+    width: 98%;
+    gap: 1rem;
 }
